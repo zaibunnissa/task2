@@ -10,11 +10,17 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    width:max-content;
     overflow-y: scroll;
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
     display: flex;
     text-align: center;
+  }
+  
+  .paragraph:before {
+    content: "\1F43E";
+    font-size: medium;
   }
   
   h3 {
@@ -45,8 +51,7 @@
   h2 {
     margin: 1rem;
     color: var(--primary-color);
-    padding-bottom: 1px;
-    margin-top: 3rem;
+    padding-bottom: 0px;
   }
   
   h3 {
@@ -74,20 +79,20 @@
   
   img.right {
     float: right;
-    margin-right: 0;
   }
   img.left {
     float: left;
   }
   
   section {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   section {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0;
   }
   
   .flex-justify-center {
