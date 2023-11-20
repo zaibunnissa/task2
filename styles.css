@@ -1,8 +1,9 @@
 :root {
     --primary-color: rgb(29, 27, 27);
-    --secondary-color: rgb(88, 83, 83);
+    --secondary-color: rgb(156, 149, 149);
     --green-color: rgb(135, 199, 196);
   }
+  
   html,
   body {
     color: var(--secondary-color);
@@ -42,7 +43,10 @@
   }
   
   h2 {
+    margin: 1rem;
     color: var(--primary-color);
+    padding-bottom: 1px;
+    margin-top: 3rem;
   }
   
   h3 {
@@ -74,6 +78,7 @@
   img.left {
     float: left;
   }
+  
   section {
     margin-bottom: 30px;
   }
