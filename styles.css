@@ -20,7 +20,10 @@
   
   .paragraph:before {
     content: "\1F43E";
-    font-size: medium;
+    font-size: 3rem;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    filter: hue-rotate(297.25deg);
   }
   
   h3 {
